@@ -25,3 +25,4 @@ Route::get('/accueil', [MarketController::class, 'index']);
 Route::get('/drivesasamarketplace', [MarketController::class, 'index1']);
 Route::get('/login', [MarketController::class, 'index3']);
 Route::get('/servicepage', [MarketController::class, 'index4']);
+Route::get('/mecanik', [MarketController::class, 'index5']);

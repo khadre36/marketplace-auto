@@ -34,6 +34,11 @@ class MarketController extends Controller
         return view('servicepage');
     }
 
+    public function index5()
+    {
+        return view('mecanik');
+    }
+
     /**
      * Show the form for creating a new resource.
      */
